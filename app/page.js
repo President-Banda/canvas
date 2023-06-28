@@ -1,7 +1,8 @@
-import Image from 'next/image'
+'use client'
+import App from "./components/Example"
 
 export default function Home() {
   return (
-    <div className='text-xl'>I am a canvas</div>
+    <App />
   )
 }
